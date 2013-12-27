@@ -13,15 +13,16 @@ public class Crime {
         mId = UUID.randomUUID();
     }
 
-    public UUID getmId() {
+    public UUID getId() {
         return mId;
     }
 
-    public String getmTitle() {
+
+    public String getTitle() {
         return mTitle;
     }
 
-    public void setmTitle(String mTitle) {
-        this.mTitle = mTitle;
+    public void setTitle(String title) {
+        mTitle = title;
     }
 }
