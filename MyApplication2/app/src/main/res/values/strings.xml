@@ -12,5 +12,6 @@
     <string name="title_activity_crime">CrimeActivity</string>
     <string name="title_activity_crime_list">CrimeListActivity</string>
     <string name="title_activity_crime_pager">CrimePagerActivity</string>
+    <string name="date_picker_title">Date of crime: </string>
 
 </resources>
