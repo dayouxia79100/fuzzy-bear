@@ -11,5 +11,6 @@
     <string name="crimes_title">Crimes</string>
     <string name="title_activity_crime">CrimeActivity</string>
     <string name="title_activity_crime_list">CrimeListActivity</string>
+    <string name="title_activity_crime_pager">CrimePagerActivity</string>
 
 </resources>
