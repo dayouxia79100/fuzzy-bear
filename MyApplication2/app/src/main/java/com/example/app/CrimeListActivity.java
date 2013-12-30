@@ -11,10 +11,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.os.Build;
 
-public class CrimeActivity extends SingleFragmentActivity {
+public class CrimeListActivity extends SingleFragmentActivity {
 
     @Override
     protected Fragment createFragment() {
-        return new CrimeFragment();
+        return new CrimeListFragment();
     }
 }
