@@ -11,6 +11,8 @@ import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.Button;
 
 import java.io.IOException;
@@ -36,6 +38,16 @@ public class CrimeCameraFragment extends Fragment {
             }
         }
         return bestSize;
+    }
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+
+       // getActivity().requestWindowFeature(Window.FEATURE_NO_TITLE);
+        //getActivity().getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
+
+
+        super.onCreate(savedInstanceState);
     }
 
     @Override

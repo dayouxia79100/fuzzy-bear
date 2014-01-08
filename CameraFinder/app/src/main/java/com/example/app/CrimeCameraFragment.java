@@ -20,10 +20,16 @@ import java.util.List;
  * Created by dayouxia on 1/2/14.
  */
 public class CrimeCameraFragment extends Fragment {
+
+
+
+
     private static final String TAG = "CrimeCameraFragment";
 
     private Camera mCamera;
     private SurfaceView mSurfaceView;
+
+
 
     private Camera.Size getBestSupportedSize(List<Camera.Size> sizes, int width, int height){
         Camera.Size bestSize = sizes.get(0);
@@ -109,6 +115,8 @@ public class CrimeCameraFragment extends Fragment {
             mCamera = Camera.open();
         }
     }
+
+
 
     @Override
     public void onPause() {
