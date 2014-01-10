@@ -44,6 +44,7 @@ public class CrimeFragment extends Fragment {
             "com.bignerdranch.android.criminalintent.crime_id";
 
     private static final String DIALOG_DATE = "date";
+    private static final String Dialog_Image = "image";
     private static final int REQUEST_DATE = 0;
     private static final int REQUEST_PHOTO = 1;
     private static final String TAG = "CrimeFragment";
@@ -193,7 +194,20 @@ public class CrimeFragment extends Fragment {
         });
 
         mPhotoView = (ImageView)v.findViewById(R.id.crime_imageView);
+        mPhotoView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Photo p = mCrime.getPhoto();
+                if(p == null) return ;
 
+                FragmentManager fm = getActivity()
+                        .getSupportFragmentManager();
+                String path = getActivity()
+                        .getFileStreamPath(p.getFileName()).getAbsolutePath();
+                ImageFragment.newInstance(path)
+                        .show(fm,Dialog_Image);
+            }
+        });
         mSolvedCheckBox = (CheckBox) v.findViewById(R.id.crime_solved);
         mSolvedCheckBox.setChecked(mCrime.isSolved());
         mSolvedCheckBox.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
