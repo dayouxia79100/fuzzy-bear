@@ -22,6 +22,7 @@ public class FullscreenActivity extends Activity {
      * {@link #AUTO_HIDE_DELAY_MILLIS} milliseconds.
      */
     private static final boolean AUTO_HIDE = true;
+    
 
     /**
      * If {@link #AUTO_HIDE} is set, the number of milliseconds to wait after
