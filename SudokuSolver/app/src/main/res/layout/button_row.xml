@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableRow
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+          >
+    <Button
+        android:layout_weight="1"
+        style="@style/btnStyleSandrift"/>
+    <Button style="@style/btnStyleSandrift"
+            android:layout_weight="1"/>
+    <Button style="@style/btnStyleSandrift"
+            android:layout_weight="1"/>
+
+
+</TableRow>

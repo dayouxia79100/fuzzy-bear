@@ -1,0 +1,49 @@
+<!-- From: file:/Users/dayouxia/Desktop/fuzzy-bear/LoL-Chat/app/src/main/AndroidManifest.xml -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto" android:versionCode="18" android:versionName="0.9.4" package="com.rei.lolchat">
+	<application android:icon="@drawable/icon" android:label="@string/app_name" android:name="com.rei.lolchat.BeemApplication" android:theme="@style/Theme.BEEM.Default">
+		<activity android:label="@string/app_name" android:launchMode="standard" android:name="com.rei.lolchat.ui.Login"> 
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN"/>
+				<category android:name="android.intent.category.LAUNCHER"/>
+			</intent-filter> 
+		</activity>
+		<activity android:label="Account wizard" android:name="com.rei.lolchat.ui.wizard.Account"/>
+		<activity android:label="Account wizard" android:name="com.rei.lolchat.ui.wizard.AccountConfigure"/>
+		<activity android:label="@string/login_login_progress" android:launchMode="singleTop" android:name="com.rei.lolchat.ui.LoginAnim" android:screenOrientation="portrait"/>
+		<activity android:label="@string/edit_settings_name" android:name="com.rei.lolchat.ui.Settings"/>
+		<activity android:label="@string/chat_name" android:launchMode="singleTop" android:name="com.rei.lolchat.ui.Chat"/>
+		<activity android:label="@string/ChangeStatusActTitle" android:launchMode="singleTop" android:name="com.rei.lolchat.ui.ChangeStatus" android:windowSoftInputMode="stateHidden"/>
+		<activity android:label="@string/AddCActTitle" android:name="com.rei.lolchat.ui.AddContact"/>
+		<activity android:label="@string/app_name" android:name="com.rei.lolchat.ui.Subscription"/>
+		<activity android:label="@string/create_account_name" android:name="com.rei.lolchat.ui.CreateAccount"/>
+
+		<activity android:label="@string/contact_list_name" android:launchMode="singleTask" android:name="com.rei.lolchat.ui.ContactList"/>
+
+		<activity android:label="GroupList" android:name="com.rei.lolchat.ui.GroupList"/>
+		<activity android:label="@string/privacy_list_name" android:name="com.rei.lolchat.ui.PrivacyList"/>
+
+		<!--
+			Could be interesting if we would launch beem at startup <receiver
+			android:name=".tool.BeemBroadcastReceiver" android:enabled="true">
+			<intent-filter> <action
+			android:name="android.intent.action.BOOT_COMPLETED" />
+			</intent-filter> </receiver>
+		-->
+		<provider android:authorities="com.rei.lolchat.providers.avatarprovider" android:exported="false" android:name="com.rei.lolchat.providers.AvatarProvider"/>
+
+		<service android:enabled="true" android:label="Beem Service" android:name="com.rei.lolchat.BeemService" android:permission="com.rei.lolchat.BEEM_SERVICE">
+			<intent-filter>
+				<action android:name="com.rei.lolchat.BeemService"/>
+			</intent-filter>
+		</service>
+	</application>
+	<permission android:description="@string/BeemServiceDescription" android:label="BeemService" android:name="com.rei.lolchat.BEEM_SERVICE" android:permissionGroup="android.permission-group.NETWORK"/>
+	<uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.VIBRATE"/>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+	<uses-permission android:name="com.rei.lolchat.BEEM_SERVICE"/>
+	<uses-feature name="android.hardware.touchscreen" required="false"/>
+	<uses-sdk android:minSdkVersion="5" android:targetSdkVersion="7"/>
+	<supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:smallScreens="true"/>
+</manifest>

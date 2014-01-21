@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/contact_list_context_menu_chat_item"
+		android:title="@string/CDChat">
+		<menu>
+		</menu>
+	</item>
+	<item android:id="@+id/contact_list_context_menu_call_item"
+		android:title="@string/CDCall" android:visible="false" />
+	<item android:id="@+id/contact_list_context_menu_user_info"
+		android:title="@string/CDInfos" />
+		
+</menu>
+<!-- From: file:/Users/dayouxia/Desktop/fuzzy-bear/LoL-Chat/app/src/main/res/menu/contactlist_context.xml -->

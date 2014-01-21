@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- From: file:/Users/dayouxia/Desktop/fuzzy-bear/TicTacToe4-new/app/src/main/res/values/color.xml -->
+    <eat-comment />
+
+    <color name="background">#676767</color>
+    <!-- From: file:/Users/dayouxia/Desktop/fuzzy-bear/TicTacToe4-new/app/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values/colors.xml -->
+    <eat-comment />
+
+    <color name="common_action_bar_splitter">#d2d2d2</color>
+    <color name="common_signin_btn_dark_text_default">@android:color/white</color>
+    <color name="common_signin_btn_dark_text_disabled">#FFAAAAAA</color>
+    <color name="common_signin_btn_dark_text_focused">@android:color/white</color>
+    <color name="common_signin_btn_dark_text_pressed">@android:color/white</color>
+    <color name="common_signin_btn_default_background">#FFDD4B39</color>
+    <color name="common_signin_btn_light_text_default">#FF737373</color>
+    <color name="common_signin_btn_light_text_disabled">#FFAAAAAA</color>
+    <color name="common_signin_btn_light_text_focused">#FF737373</color>
+    <color name="common_signin_btn_light_text_pressed">@android:color/white</color>
+    <!-- From: file:/Users/dayouxia/Desktop/fuzzy-bear/TicTacToe4-new/app/src/main/res/values/color.xml -->
+    <eat-comment />
+
+    <color name="dark">#AA545454</color>
+    <color name="light">#AADEDEDE</color>
+    <color name="selectedBlock">#66FF0000</color>
+    <color name="white">#FFFFFF</color>
+    <!-- From: file:/Users/dayouxia/Desktop/fuzzy-bear/TicTacToe4-new/app/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values/ads_attrs.xml -->
+    <eat-comment />
+
+    <declare-styleable name="AdsAttrs">
+
+        <!--
+    The size of the ad. It must be one of BANNER, FULL_BANNER, LEADERBOARD,
+    MEDIUM_RECTANGLE, SMART_BANNER, WIDE_SKYSCRAPER, or
+    &lt;width&gt;x&lt;height&gt;.
+        -->
+        <attr name="adSize" format="string" />
+
+        <!-- The ad unit ID. -->
+        <attr name="adUnitId" format="string" />
+    </declare-styleable>
+    <!-- From: file:/Users/dayouxia/Desktop/fuzzy-bear/TicTacToe4-new/app/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values/maps_attrs.xml -->
+    <eat-comment />
+
+    <declare-styleable name="MapAttrs">
+        <attr name="mapType" format="enum">
+            <enum name="none" value="0" />
+            <enum name="normal" value="1" />
+            <enum name="satellite" value="2" />
+            <enum name="terrain" value="3" />
+            <enum name="hybrid" value="4" />
+        </attr>
+        <attr name="cameraBearing" format="float" />
+        <attr name="cameraTargetLat" format="float" />
+        <attr name="cameraTargetLng" format="float" />
+        <attr name="cameraTilt" format="float" />
+        <attr name="cameraZoom" format="float" />
+        <attr name="uiCompass" format="boolean" />
+        <attr name="uiRotateGestures" format="boolean" />
+        <attr name="uiScrollGestures" format="boolean" />
+        <attr name="uiTiltGestures" format="boolean" />
+        <attr name="uiZoomControls" format="boolean" />
+        <attr name="uiZoomGestures" format="boolean" />
+        <attr name="useViewLifecycle" format="boolean" />
+        <attr name="zOrderOnTop" format="boolean" />
+    </declare-styleable>
+    <!-- From: file:/Users/dayouxia/Desktop/fuzzy-bear/TicTacToe4-new/app/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values/version.xml -->
+    <eat-comment />
+
+    <integer name="google_play_services_version">4030500</integer>
+    <!-- From: file:/Users/dayouxia/Desktop/fuzzy-bear/TicTacToe4-new/app/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="app_name">AndroidforDummies</string>
+    <string name="audio">Audio</string>
+    <!-- From: file:/Users/dayouxia/Desktop/fuzzy-bear/TicTacToe4-new/app/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="auth_client_needs_enabling_title">      An application requires Google Play Services to be enabled.</string>
+    <string name="auth_client_needs_installation_title">      An application requires installation of Google Play Services.</string>
+    <string name="auth_client_needs_update_title">      An application requires an update for Google Play Services.</string>
+    <string name="auth_client_play_services_err_notification_msg">Google Play services error</string>
+    <string name="auth_client_requested_by_msg">Requested by <ns1:g id="app_name">%1$s</ns1:g></string>
+    <string name="auth_client_using_bad_version_title">      An application attempted to use a bad version of Google Play Services.</string>
+    <!-- From: file:/Users/dayouxia/Desktop/fuzzy-bear/TicTacToe4-new/app/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="cancel">Cancel</string>
+    <string name="clear">Clear</string>
+    <!-- From: file:/Users/dayouxia/Desktop/fuzzy-bear/TicTacToe4-new/app/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="common_google_play_services_enable_button" msgid="2523291102206661146">Enable Google Play services</string>
+    <string name="common_google_play_services_enable_text" msgid="227660514972886228">This app won\'t work unless you enable Google Play services.</string>
+    <string name="common_google_play_services_enable_title" msgid="5122002158466380389">Enable Google Play services</string>
+    <string name="common_google_play_services_install_button" msgid="7153882981874058840">Get Google Play services</string>
+    <string name="common_google_play_services_install_text_phone" msgid="2122112764540849864">This app won\'t run without Google Play services, which are missing from your phone.</string>
+    <string name="common_google_play_services_install_text_tablet" msgid="7351599665250191022">This app won\'t run without Google Play services, which are missing from your tablet.</string>
+    <string name="common_google_play_services_install_title" msgid="7215213145546190223">Get Google Play services</string>
+    <string name="common_google_play_services_invalid_account_text">The specified account does not exist on this device. Please choose a different account.</string>
+    <string name="common_google_play_services_invalid_account_title">Invalid Account</string>
+    <string name="common_google_play_services_network_error_text">A data connection is required to connect to Google Play services.</string>
+    <string name="common_google_play_services_network_error_title">Network Error</string>
+    <string name="common_google_play_services_unknown_issue">Unknown issue with Google Play services.</string>
+    <string name="common_google_play_services_unsupported_date_text">The date on the device appears to be incorrect. Please check the date on the device.</string>
+    <string name="common_google_play_services_unsupported_text">Google Play services, which some of your applications rely on, is not supported by your device. Please contact the manufacturer for assistance.</string>
+    <string name="common_google_play_services_unsupported_title">Google Play services</string>
+    <string name="common_google_play_services_update_button" msgid="6556509956452265614">Update</string>
+    <string name="common_google_play_services_update_text" msgid="9053896323427875356">This app won\'t run unless you update Google Play services.</string>
+    <string name="common_google_play_services_update_title" msgid="1788179980625863495">Update Google Play services</string>
+    <string name="common_signin_button_text">Sign in</string>
+    <string name="common_signin_button_text_long">Sign in with Google</string>
+    <!-- From: file:/Users/dayouxia/Desktop/fuzzy-bear/TicTacToe4-new/app/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="confirm_password">Confirm Password</string>
+    <string name="create">Create</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="done">Done</string>
+    <string name="enter_address_">Enter address ...</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="exit">Exit</string>
+    <string name="exit_help">Exit Help</string>
+    <string name="find">Find</string>
+    <string name="hello">hello</string>
+    <string name="help">Help</string>
+    <string name="help_text"><b>About Tic-Tac-Toe</b>\n
+		Tic-Tac-Toe is a two-player game.\n
+		Each player claims one of two symbols\n
+		– “O” or “X” – and attempts to\n
+		alternately place their symbol in empty\n
+		locations in a 3-by-3 grid, so as\n
+		to get three of the same symbol\n
+		adjacent to each other in a straight\n
+		line – either in a row or column, or\n
+		across a diagonal.\n
+		\n\n	</string>
+    <string name="help_title">Help</string>
+    <string name="id">id</string>
+    <string name="images">Images</string>
+    <string name="locate_me">Locate Me</string>
+    <string name="login">Login</string>
+    <string name="login_title">Tic-Tac-Toe Awaits!</string>
+    <string name="main_title">Android for Dummies</string>
+    <string name="new_account">New Account</string>
+    <string name="new_game">New Game</string>
+    <string name="new_user">New User</string>
+    <string name="options">Options</string>
+    <string name="password">Password</string>
+    <string name="permission_launch_activity"> This permission allows launching an activity in this application </string>
+    <string name="record_audio">Record Audio</string>
+    <string name="record_video">Record Video</string>
+    <string name="sensors">Sensors</string>
+    <string name="settings">Settings</string>
+    <string name="settings_label">Settings</string>
+    <string name="show_image">Show Image</string>
+    <string name="start_audio">Start Audio</string>
+    <string name="start_video">Start Video</string>
+    <string name="stop_audio">Stop Audio</string>
+    <string name="stop_video">Stop Video</string>
+    <string name="take_picture">Take Picture</string>
+    <string name="tic_tac_toe_on_wikipedia">Tic-Tac-Toe on Wikipedia</string>
+    <string name="tic_tac_toe_on_wikipedia_in_web_view">Tic-Tac-Toe on Wikipedia in Web View</string>
+    <string name="title">Tic-Tac-Toe</string>
+    <string name="username">Username</string>
+    <string name="video">Video</string>
+    <string name="where_am_i_">Where am I ...</string>
+
+</resources>

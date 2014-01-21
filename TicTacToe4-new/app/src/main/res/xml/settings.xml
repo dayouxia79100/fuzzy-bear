@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="Settings" >
+
+    <EditTextPreference
+        android:defaultValue="Player"
+        android:key="name"
+        android:summary="Select your name"
+        android:title="Player Info" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="cross"
+        android:summary="Select cross to play first"
+        android:title="Choose Cross (X)" />
+
+</PreferenceScreen>
+-->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/background"
+    android:title="Settings" >
+
+    <EditTextPreference
+        android:defaultValue="Player 1"
+        android:key="name"
+        android:summary="Select your name"
+        android:title="Player Info" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="human_starts"
+        android:summary="Check box to play first"
+        android:title="Human Plays First" />
+
+</PreferenceScreen>
