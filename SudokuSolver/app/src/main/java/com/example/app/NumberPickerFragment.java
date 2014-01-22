@@ -45,7 +45,7 @@ public class NumberPickerFragment extends DialogFragment {
                 .inflate(R.layout.number_picker_fragment2,null);
         NumberPicker numberPicker = (NumberPicker) v.findViewById(R.id.number_picker);
         //numberPicker.setMaxValue(9);
-       // numberPicker.setMinValue(0);
+        numberPicker.setMinValue(0);
         numberPicker.setOnValueChangedListener(new NumberPicker.OnValueChangeListener() {
             @Override
             public void onValueChange(NumberPicker numberPicker, int i, int i2) {
