@@ -5,7 +5,7 @@
     <eat-comment />
 
     <color name="background">#676767</color>
-    <!-- From: file:/Users/dayouxia/Desktop/fuzzy-bear/TicTacToe4-new/app/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values/colors.xml -->
+    <!-- From: file:/Users/dayouxia/Desktop/fuzzy-bear/TicTacToe4-new/app/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4132.aar/res/values/colors.xml -->
     <eat-comment />
 
     <color name="common_action_bar_splitter">#d2d2d2</color>
@@ -25,7 +25,7 @@
     <color name="light">#AADEDEDE</color>
     <color name="selectedBlock">#66FF0000</color>
     <color name="white">#FFFFFF</color>
-    <!-- From: file:/Users/dayouxia/Desktop/fuzzy-bear/TicTacToe4-new/app/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values/ads_attrs.xml -->
+    <!-- From: file:/Users/dayouxia/Desktop/fuzzy-bear/TicTacToe4-new/app/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4132.aar/res/values/ads_attrs.xml -->
     <eat-comment />
 
     <declare-styleable name="AdsAttrs">
@@ -37,10 +37,17 @@
         -->
         <attr name="adSize" format="string" />
 
+        <!--
+    A comma-separated list of the supported ad sizes. The sizes must be one of
+    BANNER, FULL_BANNER, LEADERBOARD, MEDIUM_RECTANGLE, SMART_BANNER,
+    WIDE_SKYSCRAPER, or &lt;width&gt;x&lt;height&gt;.
+        -->
+        <attr name="adSizes" format="string" />
+
         <!-- The ad unit ID. -->
         <attr name="adUnitId" format="string" />
     </declare-styleable>
-    <!-- From: file:/Users/dayouxia/Desktop/fuzzy-bear/TicTacToe4-new/app/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values/maps_attrs.xml -->
+    <!-- From: file:/Users/dayouxia/Desktop/fuzzy-bear/TicTacToe4-new/app/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4132.aar/res/values/maps_attrs.xml -->
     <eat-comment />
 
     <declare-styleable name="MapAttrs">
@@ -65,16 +72,16 @@
         <attr name="useViewLifecycle" format="boolean" />
         <attr name="zOrderOnTop" format="boolean" />
     </declare-styleable>
-    <!-- From: file:/Users/dayouxia/Desktop/fuzzy-bear/TicTacToe4-new/app/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values/version.xml -->
+    <!-- From: file:/Users/dayouxia/Desktop/fuzzy-bear/TicTacToe4-new/app/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4132.aar/res/values/version.xml -->
     <eat-comment />
 
-    <integer name="google_play_services_version">4030500</integer>
+    <integer name="google_play_services_version">4132500</integer>
     <!-- From: file:/Users/dayouxia/Desktop/fuzzy-bear/TicTacToe4-new/app/src/main/res/values/strings.xml -->
     <eat-comment />
 
     <string name="app_name">AndroidforDummies</string>
     <string name="audio">Audio</string>
-    <!-- From: file:/Users/dayouxia/Desktop/fuzzy-bear/TicTacToe4-new/app/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values/strings.xml -->
+    <!-- From: file:/Users/dayouxia/Desktop/fuzzy-bear/TicTacToe4-new/app/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4132.aar/res/values/strings.xml -->
     <eat-comment />
 
     <string name="auth_client_needs_enabling_title">      An application requires Google Play Services to be enabled.</string>
@@ -88,7 +95,7 @@
 
     <string name="cancel">Cancel</string>
     <string name="clear">Clear</string>
-    <!-- From: file:/Users/dayouxia/Desktop/fuzzy-bear/TicTacToe4-new/app/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4030.aar/res/values/strings.xml -->
+    <!-- From: file:/Users/dayouxia/Desktop/fuzzy-bear/TicTacToe4-new/app/build/exploded-bundles/ComGoogleAndroidGmsPlayServices4132.aar/res/values/strings.xml -->
     <eat-comment />
 
     <string name="common_google_play_services_enable_button" msgid="2523291102206661146">Enable Google Play services</string>
